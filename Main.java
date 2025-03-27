@@ -23,7 +23,8 @@ public class Main {
             writer.close();
 
             System.out.println("MD5 hash saved in output.txt: " + md5Hash);
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             e.printStackTrace();
         }
     }
